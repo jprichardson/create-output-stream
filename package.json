@@ -1,6 +1,6 @@
 {
   "name": "create-output-stream",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Create an fs.writeableStream that won't error if the directory does not exist.",
   "main": "index.js",
   "scripts": {
