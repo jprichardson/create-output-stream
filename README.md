@@ -11,10 +11,10 @@ Exactly like `fs.createWriteStream`, but if the directory does not exist, it's c
 ## Example
 
 ```js
-var fs = require('fs-extra')
+var createOutputStream = require('create-output-stream')
 
 // if /tmp/some does not exist, it is created
-var ws = fs.createOutputStream('/tmp/some/file.txt')
+var ws = createOutputStream('/tmp/some/file.txt')
 ws.write('hello\n')
 ```
 
